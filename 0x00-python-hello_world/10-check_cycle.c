@@ -10,18 +10,20 @@ int check_cycle(listint_t *list)
 {
 	listint_t *p, *q;
 
-	if (list == NULL || list->next == NULL)
+	if (!list || !list->next)
+	{
 		return (0);
-
+	}
 	p = list->next;
 	q = list->next->next;
 
-	while (p != NULL && q != NULL && q->next != NULL)
+	while (p && q && q->next)
 	{
 		if (p == q)
 		{
 			return (1);
 		}
+
 	p = p->next;
 	q = q->next->next;
 	}
