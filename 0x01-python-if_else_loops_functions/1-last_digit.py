@@ -11,7 +11,7 @@ if last_digit > 5:
     print(f"Last digit of {number:d} is {last_digit} {msg}")
 
 
-elif last_digit < 6:
+elif last_digit < 6 and last_digit != 0:
     msg = "and is less than 6 and not 0"
     print(f"Last digit of {number:d} is {last_digit:d} {msg}")
 
