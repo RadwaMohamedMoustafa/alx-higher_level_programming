@@ -8,4 +8,5 @@ def fizzbuzz():
         if i % 15 == 0:
             msg = "FizzBuzz"
         else:
-            print(i, end=' ')
+            msg = i
+            print(msg, end=' ')
