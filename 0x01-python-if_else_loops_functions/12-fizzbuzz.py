@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def fizzbuzz():
     msg = ''
-    for i in range(0, 101):
+    for i in range(1, 101):
         if i % 15 == 0:
             msg = 'FizzBuzz'
         if i % 5 == 0:
