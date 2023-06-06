@@ -6,7 +6,6 @@ if number >= 0:
 else:
     last_digit = number % -10
 
-
 if last_digit > 5:
     msg = "and is greater than 5"
     print(f"Last digit of {number:d} is {last_digit} {msg}")
