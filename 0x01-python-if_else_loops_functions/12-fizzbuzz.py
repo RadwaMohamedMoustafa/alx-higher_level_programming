@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 def fizzbuzz():
     for i in range(0, 101):
-        msg = " "
+        msg = ' '
         if i % 15 == 0:
-            msg = "FizzBuzz"
+            msg = 'FizzBuzz'
         if i % 5 == 0:
-            msg = "Buzz"
+            msg = 'Buzz'
         if i % 3 == 0:
-            msg = "Fizz"
+            msg = 'Fizz'
         else:
             msg = i
             print(msg, end=' ')
