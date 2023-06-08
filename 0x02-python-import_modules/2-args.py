@@ -13,8 +13,8 @@ if __name__ == "__main__":
         print("1 argument:")
 
     else:
-        print("{} arguments:".format(arg))
+        print("{:d} arguments:".format(arg))
 
 
     for i in range(arg):
-        print("{}: {}".format(i + 1 , sys.argv[i + 1]))
+        print("{:d}: {:s}".format(i + 1 , sys.argv[i + 1]))
